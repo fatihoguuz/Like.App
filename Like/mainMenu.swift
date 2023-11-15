@@ -12,6 +12,11 @@ import CoreLocation
 class mainMenu: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var nameText: UITextField!
+    @IBOutlet weak var commentText: UITextField!
+    
+    
+    
     
     var locationManager = CLLocationManager()
     override func viewDidLoad() {
@@ -36,15 +41,15 @@ class mainMenu: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
             
             let annotation = MKPointAnnotation()
             annotation.coordinate = touchedCoordinates
-            annotation.title = "L"
-            annotation.subtitle = "Like"
+            annotation.title = nameText.text
+            annotation.subtitle = commentText.text
             self.mapView.addAnnotation(annotation)
         }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = CLLocationCoordinate2D(latitude: locations[0].coordinate.latitude, longitude: locations[0].coordinate.longitude)
-        let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
+        let span = MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20)
         let region = MKCoordinateRegion(center: location, span: span)
         mapView.setRegion(region, animated: true)
     }
