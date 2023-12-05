@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D8C308A2B1F3A28001D5389 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8C30892B1F3A28001D5389 /* TextView.swift */; };
 		3DC83B282B02019F00AA29D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC83B272B02019F00AA29D6 /* AppDelegate.swift */; };
 		3DC83B2A2B02019F00AA29D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC83B292B02019F00AA29D6 /* SceneDelegate.swift */; };
 		3DC83B2F2B02019F00AA29D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC83B2D2B02019F00AA29D6 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D8C30892B1F3A28001D5389 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		3DC83B242B02019F00AA29D6 /* Like.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Like.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC83B272B02019F00AA29D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC83B292B02019F00AA29D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				3DC83B272B02019F00AA29D6 /* AppDelegate.swift */,
 				3DC83B292B02019F00AA29D6 /* SceneDelegate.swift */,
+				3D8C30892B1F3A28001D5389 /* TextView.swift */,
 				3DC83B3E2B020F6B00AA29D6 /* mainMenu.swift */,
 				3DC83B2D2B02019F00AA29D6 /* Main.storyboard */,
 				3DC83B332B0201A200AA29D6 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				3DC83B322B02019F00AA29D6 /* Like.xcdatamodeld in Sources */,
 				3DC83B2A2B02019F00AA29D6 /* SceneDelegate.swift in Sources */,
 				3DC83B3F2B020F6B00AA29D6 /* mainMenu.swift in Sources */,
+				3D8C308A2B1F3A28001D5389 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
