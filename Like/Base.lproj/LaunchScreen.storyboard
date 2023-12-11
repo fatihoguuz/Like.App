@@ -11,27 +11,32 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ekran Resmi 2023-11-14 17.56.49" translatesAutoresizingMaskIntoConstraints="NO" id="s28-64-cFz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="save the world" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-p5-5Vu">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f0M-p5-5Vu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BpN-7u-PsU"/>
+                            <constraint firstItem="f0M-p5-5Vu" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-59" id="NmG-zz-fzT"/>
+                            <constraint firstItem="f0M-p5-5Vu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="k3D-Fi-lnx"/>
+                            <constraint firstItem="f0M-p5-5Vu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zfh-fO-9kD"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Ekran Resmi 2023-11-14 17.56.49" width="728" height="1308"/>
+        <image name="save the world" width="1080" height="1920"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
